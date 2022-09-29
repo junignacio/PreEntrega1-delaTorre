@@ -1,0 +1,358 @@
+body{
+    background-image: url(../images/pizza.png);
+    background-size: 100%;
+    max-height: 100vh;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+}
+
+#facebook{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.titulo-index{
+    margin-right: 300px;
+    color: rgb(255, 250, 215);
+    float: right;
+}
+
+.menu-index{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 120px;
+    text-decoration: none;
+    float: left;
+}
+
+nav ul li{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(167, 49, 49);
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.titulo-carta{
+    color: rgb(255, 250, 215);
+    float: right;
+    margin: 50px 415px 0 0;
+    font-style: oblique;
+}
+
+.menu-menu{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    margin-left: 820px;
+    margin-top: 60px;
+    text-decoration: none;
+    float: left;
+    font-style: oblique;
+}
+
+.titulo-nosotros{
+    margin: 62px 275px 0 0;
+    color: rgb(255, 250, 215);
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+.texto{
+    color: white;
+    font-size: 30px;
+    max-width: 400px;
+    margin: 140px 0 0 850px;
+    position: absolute;
+}
+
+.menu-pago{
+    color: white;
+    font-size: 25px;
+    margin-left: 820px;
+    margin-top: 60px;
+    text-decoration: none;
+    float: left;
+}
+
+.titulo-pago{
+    margin: 55px 280px 0 0;
+    color: rgb(255, 250, 215);
+    float: right;
+    position: relative;
+    right: 0;
+}
+
+.titulo-cont{
+    margin: 62px 245px 0 0;
+    color: rgb(255, 250, 215);
+    float: right;
+    position: relative;
+    right: 0;
+}
+
+.envio{
+    margin: 150px 0 0 860px;
+    max-width: 250px;
+    position: absolute;
+}
+
+.campouno{
+    padding: 20px 40px;
+}
+
+.campo{
+    margin-top: 40px;
+    padding: 20px 40px;
+}
+
+.btn-enviar{
+    margin-top: 40px;
+}
+
+.volver{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 580px 0 0 1245px;
+    position: absolute;
+}
+
+/* Responsive Index */
+
+@media screen and (max-width: 1320px){
+    .titulo-index{
+        margin: 20px 700px 0 0;
+    }
+    .menu-index{
+        margin: 100px 0 0 400px;
+    }
+
+    .container{
+        margin: 30px 450px 0 0;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    .titulo-index{
+        margin: 20px 900px 0 0;
+    }
+    .menu-index{
+        margin: 100px 0 0 100px;
+    }
+
+    .container{
+        margin: 30px 650px 0 0;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    .titulo-index{
+        margin: 20px 600px 0 0;
+    }
+    .menu-index{
+        margin: 100px 0 0 250px;
+    }
+
+    .container{
+        margin: 30px 400px 0 0;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .titulo-index{
+        margin: 20px 300px 0 0;
+    }
+    .menu-index{
+        margin: 100px 0 0 500px;
+    }
+
+    .container{
+        margin: 30px 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .titulo-index{
+        margin: 20px 300px 0 0;
+    }
+    .menu-index{
+        margin: 100px 0 0 350px;
+    }
+
+    .container{
+        margin: 30px 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .titulo-index{
+        margin: 20px 300px 0 0;
+    }
+    .menu-index{
+        margin: 100px 0 0 200px;
+    }
+
+    .container{
+        margin: 30px 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .titulo-index{
+        margin: 20px 300px 0 0;
+    }
+    .menu-index{
+        margin: 100px 0 0 75px;
+    }
+
+    .container{
+        margin: 30px 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .titulo-index{
+        margin: 20px 250px 0 0;
+    }
+    .menu-index{
+        margin: 100px 0 0 75px;
+    }
+
+    .container{
+        margin: 30px 50px 0 0;
+        width: 85%;
+    }
+}
+
+
+
+/* Carta*/
+
+
+
+@media screen and (max-width: 1320px){
+    .titulo-carta{
+        margin: 40px 840px 0 0;
+    }
+    .menu-menu{
+        right: 450px;
+    }
+
+    .container{
+        margin: 30px 450px 0 0;
+    }
+
+    .volver{
+        margin: 580px 0 0 800px;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    .titulo-carta{
+        margin: 30px 1050px 0 0;
+    }
+    .menu-menu{
+        right: 750px;
+    }
+
+    .container{
+        margin: 30px 650px 0 0;
+    }
+
+    .volver{
+        margin: 580px 0 0 500px;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    .titulo-carta{
+        margin: 20px 800px 0 0;
+    }
+    .menu-menu{
+        right: 550px;
+    }
+
+    .container{
+        margin: 30px 400px 0 0;
+    }
+
+    .volver{
+        margin: 580px 0 0 680px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .titulo-carta{
+        margin: 30px 450px 0 0;
+    }
+    .menu-menu{
+        right: 400px;
+    }
+
+    .container{
+        margin: 30px 50px 0 0;
+    }
+
+    .volver{
+        margin: 580px 0 0 850px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .volver{
+        margin: 580px 0 0 750px;
+    }
+
+    .menu-menu{
+        right: 530px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .volver{
+        margin: 580px 0 0 650px;
+    }
+
+    .menu-menu{
+        right: 580px;
+    }
+}
+
+@media screen and (max-width: 710px){
+    .volver{
+        margin: 580px 0 0 550px;
+    }
+
+    .menu-menu{
+        right: 700px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .volver{
+        margin: 580px 0 0 450px;
+    }
+
+    .menu-menu{
+        right: 800px;
+    }
+}
